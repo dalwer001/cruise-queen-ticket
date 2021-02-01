@@ -39,7 +39,6 @@ function getInput(ticketClass)
 
 //Showing information about booking.
 document.getElementById("bookingBtn").addEventListener("click",function(){
-    alert="Are you sure?";
     document.getElementById("bookingMainPage").style.display="none";
     document.getElementById("bookingInfoPage").style.display="block";
     document.getElementById("totalFirstClassTicket").innerText = document.getElementById("firstClass-TicketCount").value;
@@ -50,6 +49,7 @@ document.getElementById("bookingBtn").addEventListener("click",function(){
     document.getElementById("totalPriceOfTicket").innerText = document.getElementById("totalPrice").innerText;
 
 })
+
 
 
 

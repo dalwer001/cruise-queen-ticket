@@ -54,17 +54,17 @@
                 <div class="inputs">
                     <div class="input-group">
                         <label" for="">Departure</label>
-                            <input class="inp-style" type="date" name="">
+                            <input class="inp-style" type="date" name="" required>
                     </div>
                     <div class="input-group">
                         <label for="">Return</label>
-                        <input class="inp-style" type="date" name="">
+                        <input class="inp-style" type="date" name="" required>
                     </div>
                 </div>
                 <div class="input-group f-class">
                     <div>
                         <label for="">First Class ($150)</label>
-                        <input id="firstClass-TicketCount" class="inp-style inp-width" type="number" name="" value="0">
+                        <input id="firstClass-TicketCount" class="inp-style inp-width" type="number" name="" value="0" required>
                     </div>
                     <div class="plus-minus-btn">
                         <button onclick="handleTicketChange('firstClass',true);" class="btn btn-success mt-4"><i
@@ -78,7 +78,7 @@
                     <div>
                         <label for="">Economy ($100)</label>
                         <input id="economyClass-TicketCount" class="inp-style inp-width" type="number" name=""
-                            value="0">
+                            value="0" required>
                     </div>
                     <div class="plus-minus-btn">
                         <button onclick=" handleTicketChange('economyClass',true);" class="btn btn-success mt-4"><i
